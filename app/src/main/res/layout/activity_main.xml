@@ -87,8 +87,9 @@
             android:layout_marginRight="16dp"
             android:layout_marginBottom="24dp" app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintVertical_bias="0.504" app:layout_constraintHorizontal_bias="0.473"
-            android:background="@color/buttonBackground"/>
-
+            android:background="@color/buttonBackground"
+            android:onClick="randomMe"
+            />
     <ImageView
             android:layout_width="99dp"
             android:layout_height="195dp"
